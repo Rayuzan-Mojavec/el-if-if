@@ -48,6 +48,7 @@
     </div>
     <div class="bg-slate-100/20 inline-grid w-full my-auto p-10 gap-y-5 rounded-lg drop-shadow text-xl">
         <h1 class="text-center text-5xl font-bold">Mantra HTML</h1>
+        <p class="text-center font-semibold">Konon membaca ini setiap akan tidur adalah buang-buang waktu</p>
         <p class="text-justify">
             Lorem ipsum odor amet, consectetuer adipiscing elit. Sit in maecenas, quam in rhoncus consectetur maximus
             imperdiet. Eros vitae quam per libero morbi curabitur dui tristique. Nibh sem euismod phasellus tincidunt
