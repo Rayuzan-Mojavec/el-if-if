@@ -23,7 +23,7 @@
         <div class="bg-slate-100/20 flex w-full justify-center content-center text-center items-center my-auto px-10 rounded drop-shadow">
             Hi
         </div>
-        <div class="bg-slate-100/20 flex w-full justify-center content-center text-center items-center my-auto px-10 rounded drop-shadow">
+        <div class="bg-slate-100/20 flex w-full justify-center content-center text-center items-center my-auto px-10 rounded-lg drop-shadow">
             Hi
         </div>
     </body>
