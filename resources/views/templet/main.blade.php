@@ -20,7 +20,8 @@
     @endif
 </head>
 
-<body class="flex gap-5 flex-col p-20 justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]">
+<body class="flex gap-5 flex-col px-20 justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]">
+    @include('templet.navbar')
     @yield('content_room')
 </body>
 
