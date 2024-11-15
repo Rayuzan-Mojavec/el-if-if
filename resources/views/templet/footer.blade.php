@@ -42,6 +42,6 @@
         </li>
     </ul>
     <div class="flex justify-center text-lg">
-        Copyright 2024 PT Foreas. All Rights Reserved
+        Copyright &copy; 2024 PT Foreas. All Rights Reserved
     </div>
 </div>
