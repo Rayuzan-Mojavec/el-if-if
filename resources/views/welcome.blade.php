@@ -2,7 +2,7 @@
 
 @section('content_room')
     
-<div class="bg-slate-100/20 inline-flex w-full p-10 rounded-lg drop-shadow text-xl gap-x-5">
+<div class="content_card inline-flex gap-x-5">
     <img src="{{ asset('34242.jpg') }}" alt="" class="rounded-md w-1/4 h-min">
     <div class="w-3/4  text-justify ">
         <p>
@@ -26,7 +26,7 @@
         </p>
     </div>
 </div>
-<div class="bg-slate-100/20 inline-grid w-full my-auto p-10 gap-y-5 rounded-lg drop-shadow text-xl">
+<div class="content_card inline-grid gap-y-5">
     <h1 class="text-center text-5xl font-bold">Mantra HTML</h1>
     <p class="text-center font-semibold">Konon membaca ini setiap akan tidur adalah buang-buang waktu</p>
     <p class="text-justify">
@@ -64,6 +64,9 @@
         nisl dui sit malesuada. Magna rhoncus metus sed habitasse leo vel senectus nibh. Malesuada efficitur lectus
         cursus mauris et eu sociosqu.
     </p>
+</div>
+<div class="content_card">
+    Hai
 </div>
 
 @endsection
