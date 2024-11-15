@@ -9,7 +9,13 @@
     <div class="w-1/3">
         <img src="{{ asset('87123.png') }}" class="rounded-md shadow-xl" alt="Harusnya ada hiura di sini">
     </div>
+    <h1 class="font-bold text-5xl">
+        319666
+    </h1>
 </div>
 
+<div class="content_card">
+
+</div>
 
 @endsection
