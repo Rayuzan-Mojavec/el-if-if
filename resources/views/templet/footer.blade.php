@@ -1,4 +1,4 @@
-<div class="bg-slate-100/50 w-full flex flex-col items-center gap-y-4 p-5 mt-14">
+<footer class="bg-slate-100/50 w-full flex flex-col items-center gap-y-4 p-5 mt-14">
     <ul class="inline-flex gap-x-6">
         <li>
             <a href="https://x.com/Rayuzan_M" class="social_icons">
@@ -49,4 +49,4 @@
     <div class="flex justify-center text-lg">
         Copyright &copy; 2024 PT Foreas, Tbk. All Rights Reserved
     </div>
-</div>
+</footer>
