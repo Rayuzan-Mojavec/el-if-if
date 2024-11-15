@@ -65,8 +65,22 @@
         cursus mauris et eu sociosqu.
     </p>
 </div>
-<div class="content_card">
-    Hai
+<div id="uno" class="content_card inline-flex justify-between">
+    <button onclick="colorFun()" class="bg-green-500 hover:bg-green-600 hover:text-white transition px-5 py-2 text-center rounded-md shadow-lg">
+        Hai
+    </button>
+    <button id="dos" onclick="spinFun()" class="rounded-full flex shadow-lg items-center p-5 bg-red-500 text-center">
+        E
+    </button>
 </div>
+
+<script>
+    function colorFun() {
+        document.getElementById("uno").classList.toggle("animate-pulse");
+    }
+    function spinFun() {
+        document.getElementById("dos").classList.toggle("animate-spin");
+    }
+</script>
 
 @endsection
