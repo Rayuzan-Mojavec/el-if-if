@@ -72,6 +72,9 @@
     <button id="dos" onclick="spinFun()" title="Ini bikin muter" class="bg-red-500 hover:bg-red-600 hover:text-white transition rounded-full flex shadow-lg items-center p-5">
         Stop
     </button>
+    <button onclick="flipFun()" title="Ini balikin" class="bg-yellow-500 hover:bg-yellow-600 hover:text-white transition rounded-full flex shadow-lg items-center p-5">
+        Hah
+    </button>
 </div>
 
 <script>
@@ -80,6 +83,14 @@
     }
     function spinFun() {
         document.getElementById("dos").classList.toggle("animate-spin");
+    }
+    function flipFun() {
+        const element = document.getElementById("tres");
+    if (element.className === "flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]") {
+        element.className = "flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#d0d0d0] to-[#2c4981]"; // Replace with an empty class
+    } else {
+        element.className = "flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]"; // Replace with the desired class
+    }
     }
 </script>
 

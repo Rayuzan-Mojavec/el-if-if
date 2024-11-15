@@ -40,6 +40,11 @@
                 <i class="bi-youtube"></i>
             </a>
         </li>
+        <li>
+            <a href="https://www.linkedin.com/in/syachrayza-afdhal-haq-05b95b177/" class="social_icons">
+                <i class="bi-linkedin"></i>
+            </a>
+        </li>
     </ul>
     <div class="flex justify-center text-lg">
         Copyright &copy; 2024 PT Foreas. All Rights Reserved

@@ -6,7 +6,7 @@
 
 @layer components{
     .content_card {
-        @apply bg-slate-100/20 w-11/12 p-10 rounded-lg drop-shadow text-xl;
+        @apply bg-slate-100/20 transition w-11/12 p-10 rounded-lg drop-shadow text-xl;
     }
     .social_icons {
         @apply text-black text-2xl;
