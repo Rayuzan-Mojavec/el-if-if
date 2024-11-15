@@ -14,8 +14,11 @@
     </h1>
 </div>
 
-<div class="content_card">
-
+<div class="content_card inline-flex justify-center">
+    <video controls class="rounded-md shadow-xl">
+        <source src="{{ asset('estenba.mp4') }}">
+        Estenba
+    </video>
 </div>
 
 @endsection
