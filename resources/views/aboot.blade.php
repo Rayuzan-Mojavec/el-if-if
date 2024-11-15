@@ -21,4 +21,10 @@
     </video>
 </div>
 
+<div class="content_card inline-flex justify-center">
+    <audio controls class="w-1/2">
+        <source src="{{ asset('funkytown.opus') }}"> 
+    </audio>
+</div>
+
 @endsection
