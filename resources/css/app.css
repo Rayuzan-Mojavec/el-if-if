@@ -1,8 +1,19 @@
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Product Sans Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+    }
+}
 
 @layer components{
     .content_card {

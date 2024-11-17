@@ -8,8 +8,12 @@
     <title>THT 18123011</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=instrument-sans:500" rel="stylesheet" />
+    <style type="text/css">
+        @font-face {
+            font-family: OptimusPrinceps;
+            src: url('{{ asset('/ProductSans-Regular.woff') }}');
+        }
+    </style>
 
     <!-- Styles / Scripts -->
     <link rel="icon" type="image/png" href="{{ asset('imt.png') }}">
@@ -20,7 +24,7 @@
     @endif
 </head>
 
-<body id="tres" class="flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]">
+<body id="tres" class="font-google flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]">
     @include('templet.navbar')
     @yield('content_room')
     @include('templet.footer')
