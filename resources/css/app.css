@@ -1,10 +1,8 @@
 @import 'bootstrap-icons/font/bootstrap-icons';
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
     @font-face {
