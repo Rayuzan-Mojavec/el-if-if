@@ -86,10 +86,10 @@
     }
     function flipFun() {
         const element = document.getElementById("tres");
-    if (element.className === "flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]") {
-        element.className = "flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#d0d0d0] to-[#2c4981]"; // Replace with an empty class
+    if (element.className === "font-google flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]") {
+        element.className = "font-google flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#d0d0d0] to-[#2c4981]"; // Replace with an empty class
     } else {
-        element.className = "flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]"; // Replace with the desired class
+        element.className = "font-google flex gap-5 flex-col justify-center content-center text-center items-center bg-gradient-to-r from-[#2C4981] to-[#d0d0d0]"; // Replace with the desired class
     }
     }
 </script>
